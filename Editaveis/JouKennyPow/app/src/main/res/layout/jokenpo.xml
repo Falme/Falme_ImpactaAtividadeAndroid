@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="100dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedra"
+            android:id="@+id/btn_pedra"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="center"
+            android:padding="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tesoura"
+            android:id="@+id/btn_tesoura"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:layout_gravity="clip_vertical" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/humano"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:src="@drawable/rock" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/compudador"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:src="@drawable/scissors"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Papel"
+            android:id="@+id/btn_papel"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="VS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:id="@+id/placar"
+            android:text="Placar"
+            android:paddingLeft="25dp" />
+
+        <TextView
+            android:textSize="24sp"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jogador2"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:layout_gravity="center_horizontal"
+            android:paddingRight="50dp" />
+
+        <TextView
+            android:textSize="24sp"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jogador1"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:gravity="fill_vertical|center_horizontal|fill_horizontal|center|fill"
+            android:layout_gravity="center_horizontal" />
+    </GridLayout>
+
+</LinearLayout>
