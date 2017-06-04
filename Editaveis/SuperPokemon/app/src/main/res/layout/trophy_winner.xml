@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/colorPrimaryDark">
+    <ImageView
+        android:src="@drawable/trophy"
+        android:layout_width="194dp"
+        android:layout_height="150dp"
+        android:layout_weight="0.19" />
+
+
+    <Button
+        android:id="@+id/btn_playTic"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ff9914"
+        android:text="Jogo da Velha"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+</LinearLayout>

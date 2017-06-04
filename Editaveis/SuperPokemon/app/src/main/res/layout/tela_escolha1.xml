@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_char"
+        android:src="@drawable/j1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_velocidade1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ff1e1e"
+        android:text="VELOCIDADE : 66 - 100"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/btn_forca1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ff1e1e"
+        android:text="FORÇA : 33 - 66"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/btn_inteligencia1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ff1e1e"
+        android:text="INTELIGÊNCIA : 0 - 33"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+</LinearLayout>
